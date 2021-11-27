@@ -9,7 +9,6 @@ day_one_input = one.dayone_partone_input
 def test_example_part_one():
     assert 514579 == one.dayone_function(example_input)
 
-
 def test_example_part_two():
     assert 241861950 == one.dayone_function_p2(example_input)
 
