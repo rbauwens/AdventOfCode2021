@@ -6,7 +6,6 @@ import src.one as one
 example_input = [1721, 979, 366, 299, 675, 1456]
 day_one_input = one.dayone_partone_input
 
-
 def test_example_part_one():
     assert 514579 == one.dayone_function(example_input)
 
