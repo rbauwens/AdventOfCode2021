@@ -5,7 +5,6 @@ ROOT_FOLDER = os.path.dirname(os.path.dirname(__file__))
 DATA_FOLDER = os.path.join(ROOT_FOLDER, 'data')
 
 
-
 def get_instructions(day, expected_lines):
     
     data_file = os.path.join(DATA_FOLDER, 'day_{}_data'.format(day))
