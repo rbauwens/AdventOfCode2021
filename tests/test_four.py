@@ -1,5 +1,5 @@
 import pytest
-import src.three as day
+import src.four as day
 
 # python -m pytest ..\tests\test_template.py -s
 
