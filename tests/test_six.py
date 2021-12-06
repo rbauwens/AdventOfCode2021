@@ -7,15 +7,19 @@ example_input = day.test_input_array
 real_input = day.input
 
 def test_example_part_one():
-    assert 5 == day.part_one(example_input)
+    assert 26 == day.part_one(day.test_input_array.copy(), 18)
+
+def test_example_part_one_eighty():
+    assert 5934 == day.part_one(day.test_input_array.copy(), 80)
 
 def test_example_part_two():
-    assert 12 == day.part_two(example_input)
+    assert 26984457539 == day.part_two(day.test_input_array.copy(), 256)
 
 
 def test_part_one():
-    assert 6687 == day.part_one(real_input)
+    assert 375482 == day.part_one(day.input.copy(), 80)
 
 
 def test_part_two():
-    assert 19851 == day.part_two(real_input)
+    assert 1689540415957 == day.part_two(day.input.copy(), 256)
+
